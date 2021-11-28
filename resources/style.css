@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.navbar-brand {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(223, 223, 219) !important;
+    position: relative;
+    left: 2%;
+    font-size: 22px;
+}
+
+
+.navbar-brand:hover {
+    color: #BBBBB4 !important;
+
+}
+
+
+#myCanvas {
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 80%;
+}
+
+#canvasImg {
+    width: 65%;
+    height: 65%
+}
