@@ -6,7 +6,7 @@ QuickSketch is a no frills, straight to the point online sketching tool, simply 
 You can choose the color of your ink, clear your sketches, and you can even save your Sketches!
 ![Website Showcase](https://i.imgur.com/1jiCpGJ.gif)
 ## How to Set up The Project
-Simply download the files, set them up in your local coding environment, and do the necessary modifications to any one of the files
+Simply download the files, set them up in your local coding environment, and do the necessary modifications to any of the files
 ## How to contribute
 - Set up the project on your computer to run locally
 - Take a look at one of the issues listed, and choose one to work on
