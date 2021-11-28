@@ -11,7 +11,8 @@ Simply download the files, set them up in your local coding environment, and do 
 - Set up the project on your computer to run locally
 - Take a look at one of the issues listed, and choose one to work on
 - Make a comment on the issue stating that you would like to work on it
-- Open an issue, Clone, Fork, and create your own branch of the project
+- Clone, Fork, and create your own branch of the project
+- Open a pull request
 - Wait for review on your contribution before it is accepted
 
 ## Coding Standards
