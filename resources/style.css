@@ -3,7 +3,7 @@ body {
     margin: 0px;
     font-family: Arial, sans-serif;
 }
-
+/* Navbar */
 .nav-item {
     padding: 0 10px;
 }
@@ -22,7 +22,10 @@ body {
 
 }
 
+/* end of Navbar */
 
+
+/* Canvas */
 #myCanvas {
     background-color: #ccc;
     border-bottom: 1px solid black;
@@ -37,3 +40,5 @@ table {
     width: 65%;
     height: 65%
 }
+
+/* end of canvas*/
