@@ -24,9 +24,17 @@ CSS: https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/CSS
 JavaScript: https://gist.github.com/antonrogov/1216380/21800f463af3d3a98e98083c4bc109e44f981ef4
 
 When creating a new block of code(HTML and CSS) that adds/modifies an element to the project make a comment at the beginning of the element and at the end of the element such as:
+for HTML:
 
 **<!--- Login Form --->**
 
 *Login Form code goes here*
 
 **<!--- End of Login Form --->**
+
+
+for CSS: 
+
+/* login form */
+*code styling goes here*
+/* end of login form */
