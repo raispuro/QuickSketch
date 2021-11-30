@@ -36,6 +36,19 @@ window.onload=function()
             document.getElementById('canvasImg').src = dataURL;
         }, false);
     
+    //Eraser
+    document.getElementById('btnEraser').addEventListener('click', function(){
+    				var name = document.getElementById('btnEraser');
+            
+    				if (context.globalCompositeOperation == 'destination-out'){
+            		context.globalCompositeOperation = 'source-over';
+                name.innerHTML = 'Eraser';
+            } else {
+    						context.globalCompositeOperation = 'destination-out';
+								name.innerHTML = 'Click to Draw';
+            }
+        }, false);
+    
     //Size Canvas
     context = document.getElementById('myCanvas').getContext("2d");
     context.canvas.width = window.innerWidth;
@@ -53,6 +66,8 @@ window.onload=function()
     
     //Hide Save Area
     document.getElementById('saveArea').style.display = "none";
+    
+    
 }
 
 function handleMouseMove(e)
