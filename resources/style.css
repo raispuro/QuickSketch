@@ -42,3 +42,53 @@ table {
 }
 
 /* end of canvas*/
+
+/* About Section */
+
+.aboutBody{
+    background-color: #ccc;
+}
+
+.aboutTitle {
+    grid-area: Title;
+    font-family: 'Source Code Pro', monospace;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+}
+
+.aboutText {
+    grid-area: Text;
+    font-family: 'Source Code Pro', monospace;
+    width: 80%;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 24px;
+}
+
+.aboutTextContent {
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+} 
+
+.aboutImg {
+    grid-area: AboutImg;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'Title Title Title Title Title Title'
+    'Text Text Text Text AboutImg AboutImg';
+    gap: 20px;
+    padding: 20px 50px 20px 50px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0 50px 0;
+    font-size: 30px;
+  }
+
+/* End of About Section */

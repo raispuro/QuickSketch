@@ -12,10 +12,10 @@
 
 </head>
 
-<body>
+<body class="aboutBody">
     <!-- Nav Bar -->
     <nav class="shadow navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="file:///C:/Users/benmr/QuickSketch/QuickSketch/index.html">QuickSketch</a>
+        <a class="navbar-brand" href="index.html">QuickSketch</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,31 +29,25 @@
                     <a class="nav-link" href="">Sign Up</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="file:///C:/Users/benmr/QuickSketch/QuickSketch/about.html">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- End of Navbar -->
 
-    <!-- canvas -->
-    <canvas id="myCanvas"></canvas>
-    <div id="saveArea">
-        <img id="canvasImg" />
-        <h2>Right Click to Save...</h2>
-        <button id="btnBack">Back</button>
-    </div>
-    <div id="tools" class="shadow navbar navbar-expand-lg navbar-dark bg-dark">
-        <table>
-            <tr>
-                <td><label for="colorChange">Color: </label><input type="color" id="colorChange" /></td>
-                <td><label for="lineWidth">Width: </label><input type="range" id="lineWidth" min="1" max="10"
-                        step="1" /></td>
-                <td><button id="btnSave">Save</button><button id="btnClear">Clear</button></td>
-            </tr>
-        </table>
-    </div>
-    <!-- end of canvas -->
+    <div class="grid-container">
+        <div class="aboutTitle">About QuickSketch</div>
+        <div class="aboutText">
+            <div class="aboutTextContent">QuickSketch is a no frills, straight to the point online sketching tool, simply open the website, and start doodling!</div>
+            <div class="aboutTextContent">You can choose the color of your ink, clear your sketches, and you can even save your Sketches!</div>
+        </div>
+        <div class="aboutImg">
+            <img src="aboutImg.png"/>
+            <div>QuickSketch is an open source project, that is always welcome to contributors looking to add some features.</div>
+            <a href="https://github.com/raispuro/QuickSketch" target="_blank">You can find the source code here!</a>
+        </div>
+    </div>  
 </body>
 
 </html>
